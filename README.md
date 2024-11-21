@@ -102,7 +102,6 @@ Esse código cria as seguintes tabelas no banco de dados `clinicdb`:
 - `bot.py`: Lógica principal do chatbot, incluindo integração com Telegram.
 - `model.py`: Funções para carregar o modelo LLaMA-2 e gerar respostas.
 - `db.py`: Conexão e operações com o banco de dados MySQL.
-- `schema.sql`: Script para criar o banco de dados necessário.
 - `config.py`: Arquivo para configurar o token do Telegram e outras variáveis de ambiente.
 
 

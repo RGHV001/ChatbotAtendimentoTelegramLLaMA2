@@ -1,0 +1,7 @@
+python-telegram-bot==20.0
+requests
+mysql-connector-python
+python-dateutil
+pytz
+colorama
+llama-cpp-python

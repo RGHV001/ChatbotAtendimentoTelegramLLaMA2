@@ -8,7 +8,7 @@ Este repositório contém o código-fonte de um protótipo de chatbot desenvolvi
 - **Envio de lembretes**: Notifica os pacientes sobre consultas marcadas 24 horas antes do horário.
 - **Gestão de consultas**: Permite confirmar, cancelar ou remarcar consultas de forma simples e automatizada.
 - **Registro de interações**: Armazena logs de conversas para análise futura.
-- **Integração com Telegram**: Facilita a comunicação com os pacientes diretamente pelo aplicativo.
+- **Integração com Telegram**: Facilita a comunicação criando uma interface simples e facil de utilizar.
 
 ## **Requisitos**
 

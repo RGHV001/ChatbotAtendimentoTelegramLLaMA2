@@ -20,7 +20,7 @@ Para utilizar este protótipo, é necessário:
 2. **Configurar um ambiente Conda**:  
    Certifique-se de que o Conda esteja instalado em seu sistema. No diretório do projeto, crie e ative um ambiente Conda
    
-4. **Instalar dependências do projeto**:  
+3. **Instalar dependências do projeto**:  
    Após ativar o ambiente Conda, instale as dependências do projeto usando o arquivo `requirements.txt`:
    ```bash
    pip install -r requirements.txt
@@ -28,7 +28,7 @@ Para utilizar este protótipo, é necessário:
 
    Além disso, se o LLaMA.cpp necessitar de bibliotecas adicionais, instale-as conforme indicado no repositório oficial.
 
-5. **Configurar o banco de dados MySQL**
+4. **Configurar o banco de dados MySQL**
 
 Certifique-se de ter o MySQL instalado e configurado no seu sistema. Utilize o código abaixo para criar o esquema do banco de dados e as tabelas necessárias. 
 
@@ -85,13 +85,13 @@ Esse código cria as seguintes tabelas no banco de dados `clinicdb`:
 - **`appointments`**: Gerencia compromissos médicos, associando pacientes às datas e horários.
 - **`dialogues`**: Registra o histórico das interações entre o paciente e o chatbot, incluindo mensagens enviadas e respostas geradas.
 
-6. **Configurar o token do Telegram**:  
+5. **Configurar o token do Telegram**:  
    Crie um bot no Telegram utilizando o [BotFather](https://core.telegram.org/bots) e adicione o token gerado no arquivo `config.py`. Certifique-se de que o arquivo contém o seguinte formato:
    ```python
    TELEGRAM_TOKEN = "seu_token_aqui"
    ```
 
-7. **Baixar o modelo LLaMA-2**:  
+6. **Baixar o modelo LLaMA-2**:  
    Coloque o arquivo do modelo (por exemplo, `llama-2-7b-chat.Q4_K_M.gguf`) na pasta "llama.cpp/models/" e certifique-se de que o caminho do modelo seja configurado corretamente no arquivo `model.py`.
 
 ---
